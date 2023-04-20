@@ -1,6 +1,4 @@
-﻿using DddMini.Domain.Models;
-
-namespace DddMini.Domain.Commands;
+﻿namespace DddMini.Domain.Commands;
 
 public interface IUpdateMiniEventCommand
 {

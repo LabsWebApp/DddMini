@@ -1,6 +1,4 @@
-﻿using DddMini.Domain.Models;
-
-namespace DddMini.Domain.Commands.Queries;
+﻿namespace DddMini.Domain.Commands.Queries;
 
 public interface IGetAllMiniEventsQuery
 {

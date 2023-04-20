@@ -1,8 +1,6 @@
-﻿using DddMini.Domain.Models;
+﻿namespace DddMini.Domain.Commands.Queries;
 
-namespace DddMini.Domain.Commands.Queries;
-
-public interface IGetAllMiniEventsQuery
+public interface IGetMiniEventByIdQuery
 {
-    Task<IEnumerable<MiniEvent>> Execute();
+    Task<MiniEvent?> Execute(Guid id); 
 }
